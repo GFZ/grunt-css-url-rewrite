@@ -34,7 +34,7 @@ exports.init = function(grunt) {
   var utils = grunt.utils || grunt.util;
   var file = grunt.file;
   var _ = utils._;
-  var async = utils.async;
+  var async = require("async");
 
   /**
    * Takes a CSS file as input, goes through it line by line, and base64
